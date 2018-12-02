@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+   <body>
+   <section>
+	<div class="topnav">
+  <a class="active" href="http://www.thapar.edu" >Home</a>
+  <a>News</a>
+  <a>Contact</a>
+  <a>About</a>
+  <p id="chat">Thapar ChatBot</p>
+	</div>
+	</section>
+	<div id="background">
+	 <h1 id="heading">Add Your Query Here!!!</h1>
+	<form  method="post">
+         <h1 id="heading">Query:</h1><br \> 
+		 <input type = "text" name = "query" id="item" placeholder="Enter Your Search Here"/>
+	<input type="submit" value="Submit" id="search">    
+    <h1 id="heading1">{{ result }}!</h1>
+	</form>
+	</div>
+   	
+    
+   </body>
+</html>

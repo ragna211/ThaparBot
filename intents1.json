@@ -1,0 +1,106 @@
+{"intents1": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That is helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We are open every day 9am-5pm", "Our hours are 9am-5pm every day"]
+        },
+        {"tag": "hostels",
+         "patterns": ["how many hostels?", "Which hostel is best?", "how are hostel of tiet?" ],
+         "responses": ["we have iconic girls boys,jannat for boys, hostel-A,B,C,D,pg girls hostel", "All hostels are awesome"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards","paytm,netbanking,cash and via check."]
+        },
+        {"tag": "infrastructure",
+         "patterns": ["tell us the buildings of tiet?", "how many buildings are there?"],
+         "responses": ["library,tan,cos,hostels,departments,tiet enterance and many more we are having 14 to 15 buildings in the campus"]
+        },
+        {"tag": "area",
+         "patterns": ["How big thapar is?", "what is the area of thapar?" ],
+         "responses": ["290 hectares approx"]
+         
+        },
+        {"tag": "students",
+         "patterns": ["what is the strengh of students in thapar?", "how many students are in thapar?" ],
+         "responses": ["10,000 plus students in all streams"]
+         
+        
+        },
+        {"tag": "streams",
+         "patterns": ["How many streams in BE?" ],
+         "responses": ["10"]
+         
+        },
+        {"tag": "names ",
+         "patterns": ["can i get the names of the branches?", "name the branches of BE?" ],
+         "responses": ["cse,enc,ece,mechanical,civil,biotech,macratonics"]
+         
+        },
+        {"tag": "students in coe",
+         "patterns": ["how many students are cse?" ],
+         "responses": ["600 approx"]
+         
+        },
+        
+
+        {"tag": "teachers",
+         "patterns": ["how are teachers in thapar?" ],
+         "responses": ["very helpful","interactive","cooperative" ]
+         
+        },
+        {"tag": "fee structure",
+         "patterns": ["fee structure of thapar?" ],
+         "responses": ["4 lacs per year including hostel"]
+         
+        },
+        {"tag": "hostel fee",
+         "patterns": ["fee for hostel?" ],
+         "responses": ["40,000 approx"]
+
+        },
+        {"tag": "no. of gates",
+         "patterns": ["how many gates for enterance are there in thapar?" ],
+         "responses": ["4"]
+  
+        },
+        {"tag": "food points",
+         "patterns": ["how many food points are there in cos?" ],
+         "responses": ["10 to 11 mouth watering food poits are available"]
+         
+        },
+        {"tag": "food points",
+         "patterns": ["how many food points are outside thapar?" ],
+         "responses": ["the number that i even cannot calculate"]
+         
+        },
+        {"tag": "ahar",
+         "patterns": ["where is ahar?" ],
+         "responses": ["near library","near G-blocks"]
+         
+        },
+        {"tag": "raghav sindhwani",
+         "patterns": ["who is raghav sindhwani?" ],
+         "responses": ["chutiya sala"]
+         
+        },
+        {"tag": "no. of courses",
+         "patterns": ["how many courses are in thapar?" ],
+         "responses": ["5 different courses"]
+         
+        }
+     
+   ]
+}

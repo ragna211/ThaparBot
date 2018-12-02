@@ -1,0 +1,73 @@
+#background
+{
+background-image:url("thapar.jpg");
+width:100vw;
+background-repeat:no-repeat;
+background-size:100% 100%;
+position:relative;
+height:100vh;
+margin-top:-25px;
+}
+
+.topnav {
+    background-color: #C4C2C2;
+    overflow: hidden;
+    height:70px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #8E0C0C;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+height:70px;
+
+}
+#heading
+{
+color:#8E0C0C;
+text-align:center;
+}
+
+#heading1
+{
+color:black;
+text-align:center;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #8E0C0C;
+    color: white;
+}
+#item
+{
+margin-left:450px;
+align:center;
+width:40%;
+height:30px;
+margin-top:-60px;
+}
+#search
+{
+width:7em;
+height:3em;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #8E0C0C;
+    color: white;
+}
+
+#chat
+{
+margin-left:650px;
+padding-bottom:2000px;
+color:#8E0C0C;
+font-weight:bold;
+font-size:30px;
+}
